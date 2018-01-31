@@ -1,6 +1,9 @@
 # internet_checker
 Rudimentary internet service checker
 
+## Setup
+- `pip install twitter`
+##
 This script was created to run continuosly on a raspberry pi with the intention to know if the internet service at home was up while away, by tweeting every 30 minutes.
 
 To run script on raspberry pi start up:
