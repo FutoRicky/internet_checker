@@ -15,7 +15,7 @@ def publish_Status_On_Twitter(Twitter_Status):
 
 def tweet_if_internet():
     try:
-        publish_Status_On_Twitter("Hay internet: " + datetime.now().strftime("%Y-%m-%d %H:%M"))
+        publish_Status_On_Twitter("Internet Service is up: " + datetime.now().strftime("%Y-%m-%d %H:%M"))
     except:
       pass
 
