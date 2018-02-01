@@ -17,7 +17,7 @@ def tweet_if_internet():
     try:
         publish_Status_On_Twitter("Internet Service is up: " + datetime.now().strftime("%Y-%m-%d %H:%M"))
     except:
-      pass
+        pass
 
 # Tweet on script startup
 publish_Status_On_Twitter("Internet Service is up: " + datetime.now().strftime("%Y-%m-%d %H:%M"))
